@@ -185,3 +185,51 @@ console.log(elements.join('-'));
 // expected output: "Fire-Air-Water"
 
 letters.join() // in the console; returns the letters with ,
+
+
+
+
+
+
+
+
+// Slice - it takes a portion of an array and it makes a new array with it
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+
+let animals = [ 'shark', 'salmon', 'whale', 'bear', 'lizard', 'tortoise'];
+
+let swimmers = animals.slice(0, 2); // returns shark, salmon: the second number is not included so it should be 3
+let mammals = animals.slice(2, 4); // returns whale, bear
+let reptiles = animals.slice(4, 6); // or use only 4 to go until the end
+
+// if we pass a negative number it will count backwards from the end of the array
+let quadruped = animals.slice(-3); // returns bear, lizard, tortoise
+animals.slice(-3, -1); // returns bear, lizard
+animals.slice(); // makes a copy of the array
+
+
+
+
+
+
+// Splice - removes/replace elements or adds in new elements in an array
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+// Sintax - splice(start, deleteCount, item1, item2, itemN)
+
+animals.splice(1, 0, 'octopus') // for adding; now animals returns shark, octopus, salmon, etc.
+animals.splice(3, 2) // returns whale, bear that were deleted and now animals does not contain them
+
+
+
+
+
+// Sort - updates a array in place
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+
+let people = ['Robinson', 'Angie', 'Jolene', 'Maggie', 'Roxanne'];
+people.sort() // returns Angie, Jolene, Maggie, Robinson, Roxanne
+
+let nums = [34,10,1000,99];
+nums.sort() // returns 10, 1000, 34, 99
+// it convers every single value to a string and then it compares their character code
+// check compare function
