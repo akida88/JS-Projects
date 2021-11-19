@@ -233,3 +233,6 @@ let nums = [34,10,1000,99];
 nums.sort() // returns 10, 1000, 34, 99
 // it convers every single value to a string and then it compares their character code
 // check compare function
+
+
+
