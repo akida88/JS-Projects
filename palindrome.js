@@ -3,6 +3,7 @@
 
 // Check for more: https://www.javatpoint.com/palindrome-in-javascript
 // https://www.geeksforgeeks.org/how-to-check-whether-a-passed-string-is-palindrome-or-not-in-javascript/
+// https://betterprogramming.pub/algorithms-101-palindromes-8a06ea97af86
 
 // When we read the word madam from the forward and the backward end, it returns the same string.
 // Therefore, we can refer to the string or number as the Palindrome.
@@ -54,4 +55,3 @@ function checkPalindrome(str){
 
 
 
-  
