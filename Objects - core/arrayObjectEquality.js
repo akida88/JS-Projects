@@ -6,7 +6,7 @@
 
 let nums = [ 1, 2, 3 ]; // the value of that variable(nums) is not storing the array, it's storing a reference to this array
 let mystery = [ 1, 2, 3 ]; 
-let moreNums = nums; // refering to the same array in memory
+let moreNums = nums; // referring to the same array in memory
 
 //They 'look' the same, but refer to different arrays
 nums === mystery; // false
@@ -32,3 +32,14 @@ if (!user.notifications.length) {
 
 // check if an array looks like other array that is not empty
 [1,2,3] === [] // wont work
+
+
+// same means for objects
+
+{} === {} // returns false - they are not the same
+{a:1} === {a:1} // is not equal to the other obj unless they are referring to the same place in memory
+
+// but if
+let data1 = {a:1};
+let data2 = data1;
+data1 === data2; // true cuz they refer to the same thing in memory
