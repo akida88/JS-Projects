@@ -1,0 +1,5 @@
+for (
+   [initialExpression];
+   [condition];
+   [incrementExpression]
+)
