@@ -5,9 +5,9 @@ for (
 )
 
 // similar in the conditional, but not how it's working
-if(){ // the code inside the {} will only run if the condition in the () is true
+// if(){ // the code inside the {} will only run if the condition in the () is true
 
-}
+// }
 
 
 
