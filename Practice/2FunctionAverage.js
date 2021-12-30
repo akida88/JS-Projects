@@ -7,7 +7,7 @@ function avg(arr){
     // loop over each num
     for(let num of arr){
         // add them together
-        totel += num;
+        totаl += num;
     }
     // divide by number of nums
     let res = total / arr.length; // or use return total / arr.length;
