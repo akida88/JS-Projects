@@ -101,3 +101,4 @@ function doubleArr(arr){
 // var is not block scoped
 // let and const are clock scoped
 
+// Next > LexicalScope / Functions
