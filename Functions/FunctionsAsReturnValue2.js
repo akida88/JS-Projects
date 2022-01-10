@@ -46,7 +46,7 @@ isNiceWeather(76) // true
 
 // they have the same pattern of behavior but with a different values
 
-// make less than, grater than and not equal to functions
+// Exercise: make less than, grater than and not equal to functions
 
 
 
