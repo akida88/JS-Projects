@@ -9,7 +9,7 @@ const fitBitData = {
    totalMiles       : 211.7,  // the value can be strings, numbers, booleans, even arrays and other objects
    avgCalorieBurn   : 5755,
    workoutsThisWeek : '5 of 7',
-   avgGoodSleep     : '2:13'
+   avgGoodSleep     : '2:13',
    45               : 'forty five'  // 45- property
 };
 
@@ -31,7 +31,7 @@ fitBitData.avgCalorieBurn // 5755
 
 // All keys are converted to strings *Except for Symbols
 // so adding 45 as a key wont work if we try to recall it by:
-fitBitData.45 // uncaught syntax error
+// fitBitData.45 // uncaught syntax error
 // it store it but it turns it as a string
 
 

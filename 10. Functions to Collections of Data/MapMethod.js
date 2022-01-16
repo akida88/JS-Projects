@@ -90,3 +90,12 @@ const titles = books.map(function(b){
 
 
 // Next > Arrow Functions Intro / Functions to Collections of Data
+
+
+
+const thisYear = 2022;
+let ageYear = 1993; // can be changed later
+
+const age = () => {
+    return thisYear - ageYear;
+}
