@@ -1,0 +1,5 @@
+- Methods
+- Function expression
+- Execution scope -> Each Function Execution Context creates its scope: the space/environment where the variables
+  and functions it defined can be accessed via a process called Scoping
+-
