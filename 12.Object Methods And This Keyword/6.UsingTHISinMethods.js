@@ -93,6 +93,7 @@ const personNew = {
    last: 'Sarkisian',
    nickName: 'Cher',
    fullName() {
+      // In a method, this refers to the object the method "lives" in:
       const {first, last, nickName} = this;
       return `${first} ${last} AKA ${nickName}`;
    },
