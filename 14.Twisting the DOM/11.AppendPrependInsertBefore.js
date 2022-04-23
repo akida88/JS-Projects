@@ -9,10 +9,6 @@ newLI.innerText = 'I AM A NEW LI';
 parentUL.appendChild(newLI) // adds a last child to the element
 
 
-// Prepend
-
-
-
 // insertBefore
 // we still have to select the parent and the element we want to insert before
 const firstLI = document.querySelector('li.todo') // takes the first li with a class of todo
@@ -35,3 +31,27 @@ const firstP = document.querySelector('p')
 firstP.insertAdjacentElement('beforebegin', i) // before the paragraph
 firstP.insertAdjacentElement('afterend', i) // after the paragraph
 firstP.insertAdjacentElement('afterbegin', i) // into the paragraph in its start
+
+
+
+
+
+newLI.innerText = 'I AM A NEW LIST ITEM!';
+
+//prepend will add newLI as the FIRST child of parentUL
+parentUL.prepend(newLI) //Doesn't work in IE!
+
+//We can also insert something BEFORE another element, using insertBefore.
+// First, select the element to insert before:
+const targetLI = document.querySelectorAll('li.todo')[2] //3rd li with class of 'todo'
+// To insert our new LI before targetLI...
+//parent.insertBefore(what to insert, where to insert)
+parentUL.insertBefore(newLI, targetLI);
+
+
+firstP.append(i,newLI)
+// both were appended inside the paragraph
+// PREPEND will make the thing as the first child
+// and will go to the beginning of the paragraph
+
+// appendChild insert only one element
